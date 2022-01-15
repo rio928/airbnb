@@ -4,6 +4,6 @@
 -- | 272      |
 -- +----------+
 
-select count(name)
+select count(*)
 from listings
 where neighborhood="Lincoln Park"
